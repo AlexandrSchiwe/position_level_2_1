@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins&display=swap');
+
+/*  FONTS
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+/* COLORS
+
+Swatch 1
+#dbddc3
+Swatch 2
+#14140f
+Swatch 3
+#680507
+Swatch 4
+#b18772
+Swatch 5
+#e8652e
+Swatch 6
+#c9c1a9
+Swatch 7
+#5a5a53
+Swatch 8
+#81826c
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 239, 228 );
+}
+
+section {
+    position: absolute;
+    left: 600px;
+    bottom: 160px;
+    margin: 0;
+}
+
+section img {
+    height: 90%;
+    width: auto;
+}
+
+h1:first-child {
+    font-family: 'Playfair Display', serif;
+    margin: 23vh 0 0 20vh;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+h1:nth-of-type(2) {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 0 20vh;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    margin: 5vh 110vh 0 20vh;
+}
+
+
+div  {
+    border: 1px solid rgb(234, 172, 86);
+    background: rgb(234, 172, 86);
+    padding: 15px 90px;
+    display: inline-block;
+    margin-left: 20vh;
+    margin-top: 7vh;
+    border-radius: 10%/60%;
+    box-shadow: 0px 2px 15px -2px rgba(0,0,0,0.76);
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
